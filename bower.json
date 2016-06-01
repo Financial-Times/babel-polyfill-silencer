@@ -1,0 +1,17 @@
+{
+  "name": "babel-polyfill-silencer",
+  "main": "index.js",
+  "description": "Microlibrary for use by webpack to avoid babel implicitly importing core-js polyfills",
+  "homepage": "https://github.com/Financial-Times/babel-polyfill-silencer",
+  "authors": [
+    "Rhys Evans <rhys.evans@ft.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

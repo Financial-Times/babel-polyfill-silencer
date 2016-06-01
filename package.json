@@ -1,0 +1,20 @@
+{
+  "name": "babel-polyfill-silencer",
+  "version": "1.0.0",
+  "description": "Microlibrary for use by webpack to avoid babel implicitly importing core-js polyfills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/babel-polyfill-silencer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/babel-polyfill-silencer/issues"
+  },
+  "homepage": "https://github.com/Financial-Times/babel-polyfill-silencer#readme"
+}
