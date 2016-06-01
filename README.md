@@ -5,14 +5,7 @@ Microlibrary for use by webpack to avoid babel implicitly importing core-js poly
 
 In your client side code use `require('babel-polyfill-silencer')` on the first line.
 
-In your webpack config define the following aliases
-
-```
-{
-  'core-js/library/fn/symbol/iterator': 'babel-polyfill-silencer/iterator',
-  'core-js/library/fn/symbol': 'babel-polyfill-silencer/symbol'
-}
-```
+In your webpack config use/extend `require('babel-polyfill-silencer/aliases') in your aliases config.
 
 It's probably possible to do something similar with other client packagers. PRs documenting this are welcome :smile:
 
