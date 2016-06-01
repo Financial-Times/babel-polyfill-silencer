@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/wheresrhys/.nvm/versions/node/v4.4.1/bin/node',
+1 verbose cli   '/Users/wheresrhys/.nvm/versions/node/v4.4.1/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '--json' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 silly mapToRegistry name babel-polyfill-silencer
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry http://127.0.0.1:5080/
+7 silly mapToRegistry uri http://127.0.0.1:5080/babel-polyfill-silencer
+8 verbose request uri http://127.0.0.1:5080/babel-polyfill-silencer
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 5:41:25 PM
+11 verbose request using bearer token for auth
+12 verbose request id ba13a62ff2ce7428
+13 http request GET http://127.0.0.1:5080/babel-polyfill-silencer
+14 http 404 http://127.0.0.1:5080/babel-polyfill-silencer
+15 verbose headers { 'x-powered-by': 'Express',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'cache-control': 'max-age=0',
+15 verbose headers   'content-length': '2',
+15 verbose headers   'accept-ranges': 'bytes',
+15 verbose headers   date: 'Wed, 01 Jun 2016 16:40:38 GMT',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   age: '0',
+15 verbose headers   connection: 'close',
+15 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+15 verbose headers   'x-cache': 'MISS',
+15 verbose headers   'x-cache-hits': '0',
+15 verbose headers   'x-timer': 'S1464799237.998606,VS0,VE168',
+15 verbose headers   vary: 'Accept-Encoding' }
+16 silly get cb [ 404,
+16 silly get   { 'x-powered-by': 'Express',
+16 silly get     'content-type': 'application/json',
+16 silly get     'cache-control': 'max-age=0',
+16 silly get     'content-length': '2',
+16 silly get     'accept-ranges': 'bytes',
+16 silly get     date: 'Wed, 01 Jun 2016 16:40:38 GMT',
+16 silly get     via: '1.1 varnish',
+16 silly get     age: '0',
+16 silly get     connection: 'close',
+16 silly get     'x-served-by': 'cache-lcy1123-LCY',
+16 silly get     'x-cache': 'MISS',
+16 silly get     'x-cache-hits': '0',
+16 silly get     'x-timer': 'S1464799237.998606,VS0,VE168',
+16 silly get     vary: 'Accept-Encoding' } ]
+17 verbose stack Error: Registry returned 404 for GET on http://127.0.0.1:5080/babel-polyfill-silencer
+17 verbose stack     at makeError (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+17 verbose stack     at Request._callback (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+17 verbose stack     at Request.self.callback (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:199:22)
+17 verbose stack     at emitTwo (events.js:87:13)
+17 verbose stack     at Request.emit (events.js:172:7)
+17 verbose stack     at Request.<anonymous> (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+17 verbose stack     at emitOne (events.js:82:20)
+17 verbose stack     at Request.emit (events.js:169:7)
+17 verbose stack     at IncomingMessage.<anonymous> (/Users/wheresrhys/.nvm/versions/node/v4.4.1/lib/node_modules/npm/node_modules/request/request.js:963:12)
+18 verbose statusCode 404
+19 verbose pkgid babel-polyfill-silencer
+20 verbose cwd /Users/wheresrhys/Projects/babel-polyfill-silencer
+21 error Darwin 14.5.0
+22 error argv "/Users/wheresrhys/.nvm/versions/node/v4.4.1/bin/node" "/Users/wheresrhys/.nvm/versions/node/v4.4.1/bin/npm" "view" "--json"
+23 error node v4.4.1
+24 error npm  v2.14.20
+25 error code E404
+26 error 404 Registry returned 404 for GET on http://127.0.0.1:5080/babel-polyfill-silencer
+26 error 404
+26 error 404 'babel-polyfill-silencer' is not in the npm registry.
+26 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
